@@ -48,16 +48,17 @@
       <!-- the path should end with the name without the extension e.g. if file is trex.fset' the path should end with trex -->
       <a-nft
         type="nft"
-        url="https://cdn.glitch.com/7cee9d13-4f31-4382-a1f2-b953ea7ad53a%2Fpencil?v=1606938369284"
+        url="./logo/logo"
         smooth="true"
         smoothCount="10"
         smoothTolerance=".01"
         smoothThreshold="5">
           <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
           <a-entity
-          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
-              scale="5 5 5"
-              position="100 100 0"
+          fbx-model="./assets/rnpar2.fbx"
+              scale="1 1 1"
+              position="0 0 0"
+                    rotation="90 90 -90"
           >
           </a-entity>
       </a-nft>
